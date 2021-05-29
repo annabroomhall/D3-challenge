@@ -41,7 +41,7 @@ function makeResponsive() {
     var states
 
     // Read CSV
-    d3.csv("/assets/data/data.csv").then(function(data) {
+    d3.csv("../../data/data.csv").then(function(data) {
       console.log(data)
 
         // parse data
